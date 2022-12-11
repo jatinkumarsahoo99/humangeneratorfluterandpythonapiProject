@@ -187,6 +187,9 @@ class _HomeState extends State<Home> {
                       IconButton(onPressed: (){
                         this.setState(() {
 
+
+
+
                           points.clear();
                         });
                       }, icon: Icon(Icons.layers_clear),color: Colors.black,)
